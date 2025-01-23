@@ -1,0 +1,14 @@
+github.com/janraasch/hugo-bearblog v0.0.0-20250110165659-9b9ac1026f63 h1:61UpkjAk+guZavJB/0KYuF0EogQ395k21Kb8FH0m6Bo=
+github.com/janraasch/hugo-bearblog v0.0.0-20250110165659-9b9ac1026f63/go.mod h1:qVJ3S3qhkRf6smf5f8vveeV/QX3ui8poHckF6Ykt9AU=
+github.com/lukeorth/poison v0.0.0-20240905132908-07485e85f024 h1:wJgYgCnf0vPFzcLWOTroGM23eq3iONBhAKMyAPMvSz8=
+github.com/lukeorth/poison v0.0.0-20240905132908-07485e85f024/go.mod h1:fYVpevZiA79ef8Q1DkUgg/MF53oy4mKFSFTnK+EeiO0=
+github.com/michaelneuper/hugo-texify3 v0.0.0-20250107191459-cf5cc1a3a88d h1:zBRan9H3qVm8TipmEThof6CFpwirjuIkj2AsEZwND+U=
+github.com/michaelneuper/hugo-texify3 v0.0.0-20250107191459-cf5cc1a3a88d/go.mod h1:OLgVlYkX7N8YT/Qx//nu6Yemst3vx3jDUNTBTrIJIZE=
+github.com/nanxiaobei/hugo-paper v0.0.0-20241205182052-8eeb1e8a513d h1:a0JmoLOkCtzijzho4MvMkqVlafP2Yne1sJ+Y6xzkhHg=
+github.com/nanxiaobei/hugo-paper v0.0.0-20241205182052-8eeb1e8a513d/go.mod h1:cS2hTYPgmZ2FkPTQbOiX6vB0yLQcWD067kJx2lkRPVQ=
+github.com/nunocoracao/blowfish/v2 v2.81.0 h1:XUACIwIXlRQx5XZvCk7xEMQ4wOahFrcquMV6nRGqs9A=
+github.com/nunocoracao/blowfish/v2 v2.81.0/go.mod h1:4SkMc+Ht8gpQCwArqiHMBDP3soxi2OWuAhVney+cuyk=
+github.com/spf13/hyde v1.3.0 h1:7zf9f7xxMfD5KwdrJU+V2w7yi1W8dKKyzvNtQkuh0sE=
+github.com/spf13/hyde v1.3.0/go.mod h1:CSmLWCbXXInaA5zAkwAQ0EbwpR7Pe74eSmDxdGspoCY=
+github.com/willfaught/paige v0.92.0 h1:6vW2y31Z9Kf2l0M1U56GmqXz3ldtFU66rtaA4RGqXT0=
+github.com/willfaught/paige v0.92.0/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=

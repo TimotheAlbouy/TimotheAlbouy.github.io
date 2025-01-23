@@ -1,6 +1,8 @@
-# Welcome to my website
+# Timothé Albouy's website
 
-Here you can check some of my web projects:
+This is my personal website, powered by Hugo.
+
+Along with my research work, the website also showcases some of my web projects:
 - [MemoMix](/memomix)
 - [Interfaxim](/interfaxim/Saint_Sixte.xml)
 - [Marksman](/marksman)

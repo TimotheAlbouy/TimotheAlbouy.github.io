@@ -1,0 +1,15 @@
+baseURL = 'https://TimotheAlbouy.github.io/'
+languageCode = 'en-us'
+title = "Timothé Albouy"
+
+[params]
+favicon = "icon.png"
+
+[[module.imports]]
+path = "github.com/janraasch/hugo-bearblog"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+
+
