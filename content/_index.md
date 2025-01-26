@@ -4,15 +4,9 @@ title = "Home"
 
 <br>
 
-<style>
-body {
-	text-align: justify;
-	text-justify: inter-word;
-}
-</style>
-
 <div style="display: flex;">
-<img style="margin-right: 1em; width: 25%; border-radius: 5px;" src="/img/2020-Timothe-Albouy.jpg" />
+<img style="margin-right: 1em; width: 25%; object-fit: cover; border-radius: 5px;"
+	src="/img/2020-Timothe-Albouy.jpg" />
 
 <div>
 Hello!
@@ -61,8 +55,7 @@ I recently graduated (December 2024) from the University of Rennes, France.
 [2024-03] A paper accepted at Distributed Computing! <br>
 
 <br>
-<div style="width: 100%; height: 25rem; overflow: hidden; border-radius: 5px;">
-	<img style="margin-top: -3rem;" width="100%"
-		alt="Fort de Vanves" title="Fort de Vanves" src="/img/fort-vanves.jpg"/>
+<div style="width: 100%; aspect-ratio: 16/9; overflow: hidden; border-radius: 5px;">
+	<img style="width: 100%; height: 100%; object-fit: cover;"
+		title="Fort de Vanves" src="/img/fort-vanves.jpg"/>
 </div>
-<br>

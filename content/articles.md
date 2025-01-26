@@ -16,11 +16,11 @@ menu = "main"
 ### Peer-Reviewed Publications in International Conferences
 
 - [Near-optimal communication Byzantine reliable broadcast under a message adversary](https://doi.org/10.4230/LIPICS.OPODIS.2024.14) <br>
-  T. Albouy, D. Frey, R. Gelles,	C. Hazay, M. Raynal, E. M. Schiller, F. Taïani, and V. Zikas <br>
+  T. Albouy, D. Frey, R. Gelles,	C. Hazay, M. Raynal, E. M. Schiller, F. Taïani, and V. Zikas (2024) <br>
   _28th Int'l Conference on Principles of Distributed Systems (OPODIS'24)_
 
 - [AMECOS: A modular event-based framework for concurrent object specification](https://doi.org/10.4230/LIPICS.OPODIS.2024.4) <br>
-  T. Albouy, A. Fernández Anta, C. Georgiou, M. Gestin, N. Nicolaou, and J. Wang <br>
+  T. Albouy, A. Fernández Anta, C. Georgiou, M. Gestin, N. Nicolaou, and J. Wang (2024) <br>
   _28th Int'l Conference on Principles of Distributed Systems (OPODIS'24)_
 
 - [Brief announcement: Towards optimal communication Byzantine reliable broadcast under a message adversary](https://doi.org/10.4230/LIPIcs.DISC.2024.13) <br>
@@ -69,8 +69,7 @@ menu = "main"
   Université de Rennes (2024)
 
 <br>
-<div style="width: 100%; height: 25rem; overflow: hidden; border-radius: 5px;">
-	<img style="margin-top: -3rem;" width="100%"
-		alt="Templo de Debod" title="Temple de Debod" src="/img/temple-debod.jpg"/>
+<div style="width: 100%; aspect-ratio: 16/9; overflow: hidden; border-radius: 5px;">
+	<img style="width: 100%; height: 100%; object-fit: cover;"
+		title="Templo de Debod" src="/img/templo-debod.jpg"/>
 </div>
-<br>
