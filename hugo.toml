@@ -3,13 +3,19 @@ languageCode = 'en-us'
 title = "Timothé Albouy"
 
 [params]
-favicon = "icon.png"
+	favicon = "img/favicon.png"
 
 [[module.imports]]
 path = "github.com/janraasch/hugo-bearblog"
 
-[markup.goldmark.renderer]
-unsafe= true
-
-
-
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+		# ref: https://gohugo.io/functions/transform/tomath/
+		[markup.goldmark.extensions]
+			[markup.goldmark.extensions.passthrough]
+				enable = true
+				[markup.goldmark.extensions.passthrough.delimiters]
+					block = [['\[', '\]'], ['$$', '$$']]
+					inline = [['\(', '\)'], ['$', '$']] # if '$' can be used for inline math, then non-math '$' characters must be double-escaped 
