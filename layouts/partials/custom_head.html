@@ -1,0 +1,11 @@
+<style>
+	body {
+		text-align: justify;
+		text-justify: inter-word;
+	}
+</style>
+
+{{ $noop := .WordCount }}
+{{ if .Page.Store.Get "hasMath" }}
+	<link href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css" rel="stylesheet">
+{{ end }}
