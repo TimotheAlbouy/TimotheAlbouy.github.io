@@ -65,7 +65,7 @@ menu = "main"
 
 ### PhD Thesis
 
-- [Foundations of reliable cooperation under asynchrony, Byzantine faults, and message adversaries](https//tel.archives-ouvertes.fr/tel-04764046) <br>
+- [Foundations of reliable cooperation under asynchrony, Byzantine faults, and message adversaries](https://tel.archives-ouvertes.fr/tel-04764046) <br>
   Université de Rennes (2024)
 
 <br>
