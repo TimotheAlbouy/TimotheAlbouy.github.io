@@ -1,16 +1,17 @@
 #import "utils/talb-web.typ": talb-web, footer-img
 #show: talb-web
 
-#html.div(style: "display: flex", {
+#html.div(style: "width: 100%; overflow: hidden", {
   html.img(
     src: "/img/corsen.jpg",
-    style: "margin-right: 1em; width: 30%; min-width: 100px; object-fit: cover; border-radius: 5px",
+    style: "margin-right: 1rem; width: 25%; max-width: 150px; border-radius: 5px; float: left",
     title: "L'homme le plus à l'Ouest de France, Pointe de Corsen"
   )
-  html.div[
+  [
     Hello!
 
     I am a PhD in informatics, specializing in distributed computing and information security.
+
     I am currently doing a postdoc at IMDEA Software Institute, Madrid, Spain, where I am hosted by Prof. Antonio Fernández Anta.
 
     // *CV:* version from Jan 2026
