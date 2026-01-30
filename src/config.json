@@ -1,0 +1,11 @@
+{
+  "title": "Timothé Albouy",
+  "sections": {
+    "Home": "/",
+    "Publications": "/publications",
+    "Blog": "/blog",
+    "Fun projects": "/projects"
+  },
+  "blog": "blog",
+  "assets": "/assets"
+}

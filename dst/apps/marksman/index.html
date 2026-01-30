@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Marksman demo</title>
+		<meta charset="utf-8" />
+		<script src="scripts/Marksman.js" type="module"></script>
+		<script src="scripts/projectImportExport.js" type="module"></script>
+	</head>
+	<body>
+		<h1>Marksman</h1>
+
+		<h2>Try it yourself!</h2>
+
+		<button id="generateBtn">Generate a new 128-bit identifier/name</button>
+
+		<div id="idNamePanel" style="display: none;">
+			<p>
+				<span style="font-weight: bold;">Bits of the identifier:</span>
+				<span id="idBitsDisplay"></span>
+			</p>
+
+			<p>
+				<span style="font-weight: bold;">Marksman name:</span>
+				<span id="nameDisplay"></span>
+			</p>
+		</div>
+		
+		<script type="module">
+			import Marksman from "./scripts/Marksman.js";
+			import { importModel } from "./scripts/projectImportExport.js";
+			import modelObject from "./model.json" assert {type: 'json'};
+
+			let idBitsDisplay;
+			let nameDisplay;
+			let idNamePanel;
+
+			let marksman;
+
+			document.addEventListener("DOMContentLoaded", () => {
+				idBitsDisplay = document.getElementById("idBitsDisplay");
+				nameDisplay = document.getElementById("nameDisplay");
+				idNamePanel = document.getElementById("idNamePanel");
+
+				const model = importModel(modelObject);
+				marksman = new Marksman(model);
+
+				document.getElementById("generateBtn").addEventListener("click", generateIdName);
+			});
+
+			function generateIdName() {
+				const idBits = Array.from({length: 128}, () => Math.floor(Math.random() * 2));
+				const name = marksman.reverseLookup(idBits);
+
+				idBitsDisplay.innerText = idBits.join("");
+				nameDisplay.innerText = name;
+				idNamePanel.style.display = "block";
+			}
+		</script>
+	</body>
+</html>
