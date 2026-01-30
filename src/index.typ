@@ -37,17 +37,6 @@
 - *HAL:* https://cv.hal.science/talb
 - *LinkedIn:* https://linkedin.com/in/timothe-albouy
 
-= ℹ️ Misc
-
-My Erdős number is 3 (Paul Erdős → Abraham Zaks → Michel Raynal → Timothé Albouy).
-
-This website was created using #link("https://typst.app/")[Typst] and a minimalist style inspired by #link("https://bearblog.dev/")[ʕ•ᴥ•ʔ Bear Blog].
-The website uses the #link("https://indestructibletype.com/Jost.html")[Jost\*] font, a geometric sans-serif and modern successor to Futura.
-(There is actually a Jost\* style with the single story "a"!)
-
-To write comments on the blog posts, you need to connect to a Github account (the comments are operated by #link("https://giscus.app/")[Giscus]).
-If Javascript is disabled, the comments on the blog posts won't appear, but the rest of the website should work perfectly.
-
 = 📰 News
 
 [2026-01] Rewrote this website in Typst \
